@@ -1,5 +1,10 @@
 name: flow
 
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+  
 dependencies:
     - python==3.7.3
     - pip
@@ -21,7 +26,7 @@ dependencies:
         - matplotlib==3.0.0
         - dill
         - lz4
-        - ray==0.8.0
+        - ray
         - setproctitle
         - psutil
         - opencv-python
